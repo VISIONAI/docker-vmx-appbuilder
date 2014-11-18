@@ -10,7 +10,7 @@ WORKDIR /vmx/middle
 
 RUN \
   wget http://files.vision.ai/vmx/vmxAppBuilder/vmxAppBuilder.stable.tar.gz &&\ 
-  tar zxfv vmxAppBuilder.stable.tar.gz &&\ 
-  rm vmxAppBuilder.stable.tar.gz
+  tar zxfv vmxAppBuilder.latest.tar.gz &&\ 
+  rm vmxAppBuilder.latest.tar.gz
 
 VOLUME /vmx/middle/static
