@@ -9,7 +9,7 @@ RUN mkdir -p /vmx/middle
 WORKDIR /vmx/middle
 
 RUN \
-  wget http://files.vision.ai/vmx/vmxAppBuilder/vmxAppBuilder.stable.tar.gz &&\ 
+  wget http://files.vision.ai/vmx/vmxAppBuilder/vmxAppBuilder.latest.tar.gz &&\ 
   tar zxfv vmxAppBuilder.latest.tar.gz &&\ 
   rm vmxAppBuilder.latest.tar.gz
 
